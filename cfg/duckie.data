@@ -1,6 +1,6 @@
 classes= 1
-train  = /content/darknet/duckiestuff/train.txt
-valid  =/content/darknet/duckiestuff/dataset_images_203.txt
+train  = duckiestuff/train.txt
+valid  = duckiestuff/dataset_images_203.txt
 names = data/duckie.names
 backup = duckie_backup
 
