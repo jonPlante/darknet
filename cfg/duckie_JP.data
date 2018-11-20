@@ -2,4 +2,4 @@ classes= 1
 train  = duckiestuff/train.txt
 valid  = duckiestuff/dataset_images_203.txt
 names = data/duckie.names
-backup = /content/gdrive/My\ Drive/
+backup = /content/gdrive/My\ Drive
