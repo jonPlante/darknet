@@ -7,7 +7,7 @@ void train_detector(char *datacfg, char *cfgfile, char *weightfile, int *gpus, i
 {
     list *options = read_data_cfg(datacfg);
     char *train_images = option_find_str(options, "train", "data/train.list");
-    char *backup_directory = "../gdrive/'My Drive'";//option_find_str(options, "backup", "/backup/");
+    char *backup_directory = "/content/gdrive/'My Drive'";//option_find_str(options, "backup", "/backup/");
 
     srand(time(0));
     char *base = basecfg(cfgfile);
